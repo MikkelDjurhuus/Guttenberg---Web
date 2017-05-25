@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0/",
-    "signature": "541a018e89f2d16eebad142fbd4760f554ce6fb9"
+    "signature": "aedb7bcccef8aff80735a39131bcab848a151b11"
   },
   "compilationOptions": {
     "defines": [
@@ -43,10 +43,33 @@
           "WindowsAzure.Storage": "7.2.1",
           "MongoDB.Driver.Core": "2.4.3",
           "MongoDB.Bson": "2.4.3",
-          "MongoDB.Driver": "2.4.3"
+          "MongoDB.Driver": "2.4.3",
+          "DevExtreme.AspNet.Mvc": "16.2.1"
         },
         "compile": {
           "DbAndTestSemesterProject.dll": {}
+        }
+      },
+      "DevExtreme.AspNet.Data/1.1.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.2-beta1",
+          "System.ComponentModel.TypeConverter": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.Linq.Queryable": "4.0.1",
+          "System.Reflection.TypeExtensions": "4.1.0",
+          "System.Text.RegularExpressions": "4.1.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/DevExtreme.AspNet.Data.dll": {}
+        }
+      },
+      "DevExtreme.AspNet.Mvc/16.2.1": {
+        "dependencies": {
+          "DevExtreme.AspNet.Data": "1.1.0",
+          "Microsoft.AspNetCore.Mvc": "1.0.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/DevExtreme.AspNet.Mvc.dll": {}
         }
       },
       "Google.Protobuf/3.0.0": {
@@ -3240,10 +3263,33 @@
           "WindowsAzure.Storage": "7.2.1",
           "MongoDB.Driver.Core": "2.4.3",
           "MongoDB.Bson": "2.4.3",
-          "MongoDB.Driver": "2.4.3"
+          "MongoDB.Driver": "2.4.3",
+          "DevExtreme.AspNet.Mvc": "16.2.1"
         },
         "runtime": {
           "DbAndTestSemesterProject.dll": {}
+        }
+      },
+      "DevExtreme.AspNet.Data/1.1.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.2-beta1",
+          "System.ComponentModel.TypeConverter": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.Linq.Queryable": "4.0.1",
+          "System.Reflection.TypeExtensions": "4.1.0",
+          "System.Text.RegularExpressions": "4.1.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/DevExtreme.AspNet.Data.dll": {}
+        }
+      },
+      "DevExtreme.AspNet.Mvc/16.2.1": {
+        "dependencies": {
+          "DevExtreme.AspNet.Data": "1.1.0",
+          "Microsoft.AspNetCore.Mvc": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/DevExtreme.AspNet.Mvc.dll": {}
         }
       },
       "Google.Protobuf/3.0.0": {
@@ -6403,6 +6449,16 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "DevExtreme.AspNet.Data/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oqWi9//fGW+f0NAJ6qlUZEqxRN9MhkJ95BjdCXEucuy4xber1hEEJ0GltiqUok2gbVjKkDQLc1a1LIU8q3CNLw=="
+    },
+    "DevExtreme.AspNet.Mvc/16.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Z7aMqr6yztHaPq8ZadhjUlANmh5C1yYqdFQchU6bh7jSaXDGYhzt/FtxR4KluOgiIKci51jO3U2uK6r/b9b8Q=="
     },
     "Google.Protobuf/3.0.0": {
       "type": "package",
