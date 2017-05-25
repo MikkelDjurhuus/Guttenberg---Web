@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0",
-    "signature": "6264d5856a60aaf75882a3d66ed98793d1ca996b"
+    "signature": "4a52c29b14079eedbcf462c75a428fbbab9df3ef"
   },
   "compilationOptions": {
     "defines": [
@@ -44,7 +44,7 @@
           "MongoDB.Driver.Core": "2.4.3",
           "MongoDB.Bson": "2.4.3",
           "MongoDB.Driver": "2.4.3",
-          "DevExtreme.AspNet.Mvc": "16.2.1",
+          "DevExtreme.AspNet.Mvc": "16.1.5-pre-1608021755",
           "DevExtreme.AspNet.Core": "16.2.5"
         },
         "runtime": {
@@ -82,7 +82,7 @@
           "lib/netstandard1.0/DevExtreme.AspNet.Data.dll": {}
         }
       },
-      "DevExtreme.AspNet.Mvc/16.2.1": {
+      "DevExtreme.AspNet.Mvc/16.1.5-pre-1608021755": {
         "dependencies": {
           "DevExtreme.AspNet.Data": "1.1.0",
           "Microsoft.AspNetCore.Mvc": "1.0.0"
@@ -4189,10 +4189,10 @@
       "serviceable": true,
       "sha512": "sha512-oqWi9//fGW+f0NAJ6qlUZEqxRN9MhkJ95BjdCXEucuy4xber1hEEJ0GltiqUok2gbVjKkDQLc1a1LIU8q3CNLw=="
     },
-    "DevExtreme.AspNet.Mvc/16.2.1": {
+    "DevExtreme.AspNet.Mvc/16.1.5-pre-1608021755": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6Z7aMqr6yztHaPq8ZadhjUlANmh5C1yYqdFQchU6bh7jSaXDGYhzt/FtxR4KluOgiIKci51jO3U2uK6r/b9b8Q=="
+      "sha512": "sha512-fkV1XpI/MVo21mMuGRHFhZ8f4mx9R2wQHBBsSGEQKHN7m0FWbJKuljidyPljen5mA/6xauh3HDVXUBRJuoHP3w=="
     },
     "Google.Protobuf/3.0.0": {
       "type": "package",
