@@ -4803,9 +4803,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v1.6",
         "dependencies": {
-          "DevExtreme.AspNet.Data": "1.0.0",
-          "DevExtreme.AspNet.Mvc": "16.1.5-pre-1608021755",
-          "DevExtreme.Web": "16.1.7",
           "Microsoft.EntityFrameworkCore": "1.0.1",
           "Microsoft.EntityFrameworkCore.Design": "1.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "1.0.1",
