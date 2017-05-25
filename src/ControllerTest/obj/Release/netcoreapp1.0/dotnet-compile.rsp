@@ -13,9 +13,6 @@
 --version:1.0.0.0
 --informational-version:1.0.0
 --target-framework:.NETCoreApp,Version=v1.0
---reference:C:\Users\Theko\.nuget\packages\DevExtreme.AspNet.Core\16.2.5\lib\netstandard1.6\DevExtreme.AspNet.Core.dll
---reference:C:\Users\Theko\.nuget\packages\DevExtreme.AspNet.Data\1.1.0\lib\netstandard1.0\DevExtreme.AspNet.Data.dll
---reference:C:\Users\Theko\.nuget\packages\DevExtreme.AspNet.Mvc\16.2.1\lib\netstandard1.6\DevExtreme.AspNet.Mvc.dll
 --reference:C:\Users\Theko\.nuget\packages\dotnet-test-xunit\1.0.0-rc2-build10015\lib\netcoreapp1.0\dotnet-test-xunit.dll
 --reference:C:\Users\Theko\.nuget\packages\Google.Protobuf\3.0.0\lib\netstandard1.0\Google.Protobuf.dll
 --reference:C:\Users\Theko\.nuget\packages\Microsoft.ApplicationInsights\2.1.0\lib\dotnet5.4\Microsoft.ApplicationInsights.dll

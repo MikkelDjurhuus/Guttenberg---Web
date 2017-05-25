@@ -36,9 +36,7 @@
     "WindowsAzure.Storage": "7.2.1",
     "MongoDB.Driver.Core": "2.4.3",
     "MongoDB.Bson": "2.4.3",
-    "MongoDB.Driver": "2.4.3",
-    "DevExtreme.AspNet.Core": "16.2.5",
-    "DevExtreme.AspNet.Mvc": "16.2.1"
+    "MongoDB.Driver": "2.4.3"
   },
   "buildOptions": {
     "emitEntryPoint": true,
