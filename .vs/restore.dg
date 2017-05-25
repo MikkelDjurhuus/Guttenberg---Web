@@ -3,3 +3,6 @@ C:\Users\Theko\Desktop\New folder\DbAndTestSemesterProject\src\DbAndTestSemester
 #:C:\Users\Theko\Desktop\New folder\DbAndTestSemesterProject\src\ControllerTest\ControllerTest.xproj
 C:\Users\Theko\Desktop\New folder\DbAndTestSemesterProject\src\ControllerTest\ControllerTest.xproj|C:\Users\Theko\Desktop\New folder\DbAndTestSemesterProject\src\DbAndTestSemesterProject\DbAndTestSemesterProject.xproj
 C:\Users\Theko\Desktop\New folder\DbAndTestSemesterProject\src\DbAndTestSemesterProject\DbAndTestSemesterProject.xproj|C:\Users\Theko\Desktop\New folder\DbAndTestSemesterProject\src\BackEnd\BackEnd.xproj
+#:C:\Users\Theko\Desktop\New folder\DbAndTestSemesterProject\src\BackEnd\BackEnd.xproj
+#:C:\Users\Theko\Desktop\New folder\DbAndTestSemesterProject\src\BackEndTest\BackEndTest.xproj
+C:\Users\Theko\Desktop\New folder\DbAndTestSemesterProject\src\BackEndTest\BackEndTest.xproj|C:\Users\Theko\Desktop\New folder\DbAndTestSemesterProject\src\BackEnd\BackEnd.xproj
