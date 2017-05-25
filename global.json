@@ -1,5 +1,5 @@
 ﻿{
-  "projects": [ "src", "Buddy And Brighteyes Pigg" ],
+  "projects": [ "src" ],
   "sdk": {
     "version": "1.0.0-preview2-003131"
   }
