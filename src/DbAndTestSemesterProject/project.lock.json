@@ -33,19 +33,6 @@
           "lib/netstandard1.0/DevExtreme.AspNet.Data.dll": {}
         }
       },
-      "DevExtreme.AspNet.Mvc/16.1.5-pre-1608021755": {
-        "type": "package",
-        "dependencies": {
-          "DevExtreme.AspNet.Data": "1.0.0",
-          "Microsoft.AspNetCore.Mvc": "1.0.0"
-        },
-        "compile": {
-          "lib/netstandard1.6/DevExtreme.AspNet.Mvc.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.6/DevExtreme.AspNet.Mvc.dll": {}
-        }
-      },
       "Google.Protobuf/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -4810,19 +4797,6 @@
         "devextreme.aspnet.data.nuspec",
         "lib/net40/DevExtreme.AspNet.Data.dll",
         "lib/netstandard1.0/DevExtreme.AspNet.Data.dll"
-      ]
-    },
-    "DevExtreme.AspNet.Mvc/16.1.5-pre-1608021755": {
-      "sha512": "fkV1XpI/MVo21mMuGRHFhZ8f4mx9R2wQHBBsSGEQKHN7m0FWbJKuljidyPljen5mA/6xauh3HDVXUBRJuoHP3w==",
-      "type": "package",
-      "path": "DevExtreme.AspNet.Mvc/16.1.5-pre-1608021755",
-      "files": [
-        "DevExtreme.AspNet.Mvc.16.1.5-pre-1608021755.nupkg.sha512",
-        "DevExtreme.AspNet.Mvc.nuspec",
-        "lib/net451/DevExtreme.AspNet.Mvc.dll",
-        "lib/net451/DevExtreme.AspNet.Mvc.xml",
-        "lib/netstandard1.6/DevExtreme.AspNet.Mvc.dll",
-        "lib/netstandard1.6/DevExtreme.AspNet.Mvc.xml"
       ]
     },
     "Google.Protobuf/3.0.0": {
@@ -11809,8 +11783,7 @@
   "projectFileDependencyGroups": {
     "": [
       "BackEnd >= 1.0.0-*",
-      "DevExtreme.AspNet.Core >= 16.2.5-*",
-      "DevExtreme.AspNet.Mvc >= 16.1.5-*",
+      "DevExtreme.AspNet.Core >= 16.2.5",
       "Microsoft.ApplicationInsights.AspNetCore >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.Cookies >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 1.0.0",

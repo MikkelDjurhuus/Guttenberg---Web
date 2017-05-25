@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0/",
-    "signature": "b13657bb36a8faa13bb540f5ce7a726e5221fb7a"
+    "signature": "331bfc6c85e29935238019eca1353da0915ee052"
   },
   "compilationOptions": {
     "defines": [
@@ -44,7 +44,6 @@
           "MongoDB.Driver.Core": "2.4.3",
           "MongoDB.Bson": "2.4.3",
           "MongoDB.Driver": "2.4.3",
-          "DevExtreme.AspNet.Mvc": "16.1.5-pre-1608021755",
           "DevExtreme.AspNet.Core": "16.2.5"
         },
         "compile": {
@@ -71,15 +70,6 @@
         },
         "compile": {
           "lib/netstandard1.0/DevExtreme.AspNet.Data.dll": {}
-        }
-      },
-      "DevExtreme.AspNet.Mvc/16.1.5-pre-1608021755": {
-        "dependencies": {
-          "DevExtreme.AspNet.Data": "1.1.0",
-          "Microsoft.AspNetCore.Mvc": "1.0.0"
-        },
-        "compile": {
-          "lib/netstandard1.6/DevExtreme.AspNet.Mvc.dll": {}
         }
       },
       "Google.Protobuf/3.0.0": {
@@ -3274,7 +3264,6 @@
           "MongoDB.Driver.Core": "2.4.3",
           "MongoDB.Bson": "2.4.3",
           "MongoDB.Driver": "2.4.3",
-          "DevExtreme.AspNet.Mvc": "16.1.5-pre-1608021755",
           "DevExtreme.AspNet.Core": "16.2.5"
         },
         "runtime": {
@@ -3301,15 +3290,6 @@
         },
         "runtime": {
           "lib/netstandard1.0/DevExtreme.AspNet.Data.dll": {}
-        }
-      },
-      "DevExtreme.AspNet.Mvc/16.1.5-pre-1608021755": {
-        "dependencies": {
-          "DevExtreme.AspNet.Data": "1.1.0",
-          "Microsoft.AspNetCore.Mvc": "1.0.0"
-        },
-        "runtime": {
-          "lib/netstandard1.6/DevExtreme.AspNet.Mvc.dll": {}
         }
       },
       "Google.Protobuf/3.0.0": {
@@ -6479,11 +6459,6 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-oqWi9//fGW+f0NAJ6qlUZEqxRN9MhkJ95BjdCXEucuy4xber1hEEJ0GltiqUok2gbVjKkDQLc1a1LIU8q3CNLw=="
-    },
-    "DevExtreme.AspNet.Mvc/16.1.5-pre-1608021755": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-fkV1XpI/MVo21mMuGRHFhZ8f4mx9R2wQHBBsSGEQKHN7m0FWbJKuljidyPljen5mA/6xauh3HDVXUBRJuoHP3w=="
     },
     "Google.Protobuf/3.0.0": {
       "type": "package",
