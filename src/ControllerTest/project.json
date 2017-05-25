@@ -3,12 +3,14 @@
   "buildOptions": {
     "debugType": "portable"
   },
-  "dependencies": {
-    "System.Runtime.Serialization.Primitives": "4.1.1",
-    "xunit": "2.1.0",
-    "dotnet-test-xunit": "1.0.0-rc2-192208-24",
-    "DbAndTestSemesterProject": "1.0.0-*"
-  },
+    "dependencies": {
+        "System.Runtime.Serialization.Primitives": "4.1.1",
+        "xunit": "2.1.0",
+        "dotnet-test-xunit": "1.0.0-rc2-192208-24",
+        "DbAndTestSemesterProject": "1.0.0-*",
+        "DevExtreme.AspNet.Core": "16.2.5",
+        "DevExtreme.AspNet.Mvc": "16.2.1"
+    },
   "testRunner": "xunit",
   "frameworks": {
     "netcoreapp1.0": {

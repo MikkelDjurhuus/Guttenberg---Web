@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0/",
-    "signature": "331bfc6c85e29935238019eca1353da0915ee052"
+    "signature": "e0d49d0b0a9ee1dddbfc8e9ff37833a61a06be37"
   },
   "compilationOptions": {
     "defines": [
@@ -44,7 +44,8 @@
           "MongoDB.Driver.Core": "2.4.3",
           "MongoDB.Bson": "2.4.3",
           "MongoDB.Driver": "2.4.3",
-          "DevExtreme.AspNet.Core": "16.2.5"
+          "DevExtreme.AspNet.Core": "16.2.5",
+          "DevExtreme.AspNet.Mvc": "16.2.1"
         },
         "compile": {
           "DbAndTestSemesterProject.dll": {}
@@ -70,6 +71,15 @@
         },
         "compile": {
           "lib/netstandard1.0/DevExtreme.AspNet.Data.dll": {}
+        }
+      },
+      "DevExtreme.AspNet.Mvc/16.2.1": {
+        "dependencies": {
+          "DevExtreme.AspNet.Data": "1.1.0",
+          "Microsoft.AspNetCore.Mvc": "1.0.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/DevExtreme.AspNet.Mvc.dll": {}
         }
       },
       "Google.Protobuf/3.0.0": {
@@ -3226,7 +3236,8 @@
           "MongoDB.Bson": "2.4.3",
           "MongoDB.Driver.Core": "2.4.3",
           "MongoDB.Driver": "2.4.3",
-          "Neo4j.Driver": "1.3.0"
+          "Neo4j.Driver": "1.3.0",
+          "DevExtreme.AspNet.Mvc": "16.2.1"
         },
         "compile": {
           "BackEnd.dll": {}
@@ -3264,7 +3275,8 @@
           "MongoDB.Driver.Core": "2.4.3",
           "MongoDB.Bson": "2.4.3",
           "MongoDB.Driver": "2.4.3",
-          "DevExtreme.AspNet.Core": "16.2.5"
+          "DevExtreme.AspNet.Core": "16.2.5",
+          "DevExtreme.AspNet.Mvc": "16.2.1"
         },
         "runtime": {
           "DbAndTestSemesterProject.dll": {}
@@ -3290,6 +3302,15 @@
         },
         "runtime": {
           "lib/netstandard1.0/DevExtreme.AspNet.Data.dll": {}
+        }
+      },
+      "DevExtreme.AspNet.Mvc/16.2.1": {
+        "dependencies": {
+          "DevExtreme.AspNet.Data": "1.1.0",
+          "Microsoft.AspNetCore.Mvc": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/DevExtreme.AspNet.Mvc.dll": {}
         }
       },
       "Google.Protobuf/3.0.0": {
@@ -6436,7 +6457,8 @@
           "MongoDB.Bson": "2.4.3",
           "MongoDB.Driver.Core": "2.4.3",
           "MongoDB.Driver": "2.4.3",
-          "Neo4j.Driver": "1.3.0"
+          "Neo4j.Driver": "1.3.0",
+          "DevExtreme.AspNet.Mvc": "16.2.1"
         },
         "runtime": {
           "BackEnd.dll": {}
@@ -6459,6 +6481,11 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-oqWi9//fGW+f0NAJ6qlUZEqxRN9MhkJ95BjdCXEucuy4xber1hEEJ0GltiqUok2gbVjKkDQLc1a1LIU8q3CNLw=="
+    },
+    "DevExtreme.AspNet.Mvc/16.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Z7aMqr6yztHaPq8ZadhjUlANmh5C1yYqdFQchU6bh7jSaXDGYhzt/FtxR4KluOgiIKci51jO3U2uK6r/b9b8Q=="
     },
     "Google.Protobuf/3.0.0": {
       "type": "package",
