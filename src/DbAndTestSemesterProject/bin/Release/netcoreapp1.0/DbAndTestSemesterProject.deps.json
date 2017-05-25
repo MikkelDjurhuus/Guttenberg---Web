@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0",
-    "signature": "1291543fc4c733afebc10cf1829ceb3d23038695"
+    "signature": "6264d5856a60aaf75882a3d66ed98793d1ca996b"
   },
   "compilationOptions": {
     "defines": [
@@ -18,9 +18,6 @@
         "dependencies": {
           "Microsoft.NETCore.App": "1.0.1",
           "BackEnd": "1.0.0",
-          "DevExtreme.AspNet.Data": "1.1.0",
-          "DevExtreme.AspNet.Mvc": "16.1.5-pre-1608021755",
-          "DevExtreme.Web": "16.1.8",
           "Microsoft.ApplicationInsights.AspNetCore": "1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "1.0.0",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "1.0.0",
@@ -46,7 +43,9 @@
           "WindowsAzure.Storage": "7.2.1",
           "MongoDB.Driver.Core": "2.4.3",
           "MongoDB.Bson": "2.4.3",
-          "MongoDB.Driver": "2.4.3"
+          "MongoDB.Driver": "2.4.3",
+          "DevExtreme.AspNet.Mvc": "16.2.1",
+          "DevExtreme.AspNet.Core": "16.2.5"
         },
         "runtime": {
           "DbAndTestSemesterProject.dll": {}
@@ -55,7 +54,18 @@
           "DbAndTestSemesterProject.dll": {}
         }
       },
-      "cldrjs/0.4.4": {},
+      "DevExtreme.AspNet.Core/16.2.5": {
+        "dependencies": {
+          "DevExtreme.AspNet.Data": "1.1.0",
+          "Microsoft.AspNetCore.Mvc": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/DevExtreme.AspNet.Core.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.6/DevExtreme.AspNet.Core.dll": {}
+        }
+      },
       "DevExtreme.AspNet.Data/1.1.0": {
         "dependencies": {
           "Newtonsoft.Json": "9.0.2-beta1",
@@ -72,7 +82,7 @@
           "lib/netstandard1.0/DevExtreme.AspNet.Data.dll": {}
         }
       },
-      "DevExtreme.AspNet.Mvc/16.1.5-pre-1608021755": {
+      "DevExtreme.AspNet.Mvc/16.2.1": {
         "dependencies": {
           "DevExtreme.AspNet.Data": "1.1.0",
           "Microsoft.AspNetCore.Mvc": "1.0.0"
@@ -82,12 +92,6 @@
         },
         "compile": {
           "lib/netstandard1.6/DevExtreme.AspNet.Mvc.dll": {}
-        }
-      },
-      "DevExtreme.Web/16.1.8": {
-        "dependencies": {
-          "jQuery": "1.11.3",
-          "jquery-globalize": "1.1.1"
         }
       },
       "Google.Protobuf/3.0.0": {
@@ -112,12 +116,6 @@
         },
         "compile": {
           "lib/netstandard1.0/Google.Protobuf.dll": {}
-        }
-      },
-      "jQuery/1.11.3": {},
-      "jquery-globalize/1.1.1": {
-        "dependencies": {
-          "cldrjs": "0.4.4"
         }
       },
       "Microsoft.ApplicationInsights/2.1.0": {
@@ -4181,40 +4179,25 @@
       "serviceable": false,
       "sha512": ""
     },
-    "cldrjs/0.4.4": {
+    "DevExtreme.AspNet.Core/16.2.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QTJ2r9FpA1XOFPRguhHAFjJZZJVil5TFOUCTLpN02BjQtgXgVDpt5VFyxQp/uNwEh0InNWLdIugl2Ls1IBqfXg=="
+      "sha512": "sha512-61N7kTA/ZaOYthO8dZ2g3Gh8k2hhm4+JvFXMYgZJEADGDKkw+H7lnQhUn/gdoDXDELFoIjWHDIt7omD/burvGA=="
     },
     "DevExtreme.AspNet.Data/1.1.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-oqWi9//fGW+f0NAJ6qlUZEqxRN9MhkJ95BjdCXEucuy4xber1hEEJ0GltiqUok2gbVjKkDQLc1a1LIU8q3CNLw=="
     },
-    "DevExtreme.AspNet.Mvc/16.1.5-pre-1608021755": {
+    "DevExtreme.AspNet.Mvc/16.2.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fkV1XpI/MVo21mMuGRHFhZ8f4mx9R2wQHBBsSGEQKHN7m0FWbJKuljidyPljen5mA/6xauh3HDVXUBRJuoHP3w=="
-    },
-    "DevExtreme.Web/16.1.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-aG5gB9aGXxDLAOBAY9wDqYHhhCjHOqCpQaeZ2uKcrb4EHvvm9pRbXms1s9hTLLzv3qraA72RL8KCXj6eoxWCSQ=="
+      "sha512": "sha512-6Z7aMqr6yztHaPq8ZadhjUlANmh5C1yYqdFQchU6bh7jSaXDGYhzt/FtxR4KluOgiIKci51jO3U2uK6r/b9b8Q=="
     },
     "Google.Protobuf/3.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-dR2aOri7pW74e1mKgA7/+ocXnfDIW5fb+FrexPsxA9xx8EijQQp7ps09llRoF+M3D75GFVhusjlIMQ5We+ow/w=="
-    },
-    "jQuery/1.11.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ymvj+/1xi/6zWPhJxZOPoPTunO6/ONr34BzLdwIR4Wjkfz2lmtmVRt/Nqnw7hp+u4JiF/gF0Hwi8al2tNaIrrg=="
-    },
-    "jquery-globalize/1.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-tkRqYLIONjwamztg1rG+xyh2asA0ARLOPorfF3N9JW8fWr+srtPAeUNLFHF6NZAQ7Avnkzgi2OC505lK5avFag=="
     },
     "Microsoft.ApplicationInsights/2.1.0": {
       "type": "package",

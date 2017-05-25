@@ -3,8 +3,18 @@
   "version": 2,
   "targets": {
     ".NETCoreApp,Version=v1.0": {
-      "cldrjs/0.4.4": {
-        "type": "package"
+      "DevExtreme.AspNet.Core/16.2.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExtreme.AspNet.Data": "1.1.0",
+          "Microsoft.AspNetCore.Mvc": "1.0.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/DevExtreme.AspNet.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/DevExtreme.AspNet.Core.dll": {}
+        }
       },
       "DevExtreme.AspNet.Data/1.1.0": {
         "type": "package",
@@ -23,10 +33,10 @@
           "lib/netstandard1.0/DevExtreme.AspNet.Data.dll": {}
         }
       },
-      "DevExtreme.AspNet.Mvc/16.1.5-pre-1608021755": {
+      "DevExtreme.AspNet.Mvc/16.2.1": {
         "type": "package",
         "dependencies": {
-          "DevExtreme.AspNet.Data": "1.0.0",
+          "DevExtreme.AspNet.Data": "1.1.0",
           "Microsoft.AspNetCore.Mvc": "1.0.0"
         },
         "compile": {
@@ -34,13 +44,6 @@
         },
         "runtime": {
           "lib/netstandard1.6/DevExtreme.AspNet.Mvc.dll": {}
-        }
-      },
-      "DevExtreme.Web/16.1.8": {
-        "type": "package",
-        "dependencies": {
-          "jQuery": "1.11.3",
-          "jquery-globalize": "1.1.1"
         }
       },
       "Google.Protobuf/3.0.0": {
@@ -66,15 +69,6 @@
         },
         "runtime": {
           "lib/netstandard1.0/Google.Protobuf.dll": {}
-        }
-      },
-      "jQuery/1.11.3": {
-        "type": "package"
-      },
-      "jquery-globalize/1.1.1": {
-        "type": "package",
-        "dependencies": {
-          "cldrjs": "0.4.4"
         }
       },
       "Libuv/1.9.0": {
@@ -4794,17 +4788,17 @@
     }
   },
   "libraries": {
-    "cldrjs/0.4.4": {
-      "sha512": "QTJ2r9FpA1XOFPRguhHAFjJZZJVil5TFOUCTLpN02BjQtgXgVDpt5VFyxQp/uNwEh0InNWLdIugl2Ls1IBqfXg==",
+    "DevExtreme.AspNet.Core/16.2.5": {
+      "sha512": "61N7kTA/ZaOYthO8dZ2g3Gh8k2hhm4+JvFXMYgZJEADGDKkw+H7lnQhUn/gdoDXDELFoIjWHDIt7omD/burvGA==",
       "type": "package",
-      "path": "cldrjs/0.4.4",
+      "path": "DevExtreme.AspNet.Core/16.2.5",
       "files": [
-        "cldrjs.0.4.4.nupkg.sha512",
-        "cldrjs.nuspec",
-        "content/Scripts/cldr.js",
-        "content/Scripts/cldr/event.js",
-        "content/Scripts/cldr/supplemental.js",
-        "content/Scripts/cldr/unresolved.js"
+        "DevExtreme.AspNet.Core.16.2.5.nupkg.sha512",
+        "DevExtreme.AspNet.Core.nuspec",
+        "lib/net451/DevExtreme.AspNet.Core.dll",
+        "lib/net451/DevExtreme.AspNet.Core.xml",
+        "lib/netstandard1.6/DevExtreme.AspNet.Core.dll",
+        "lib/netstandard1.6/DevExtreme.AspNet.Core.xml"
       ]
     },
     "DevExtreme.AspNet.Data/1.1.0": {
@@ -4818,128 +4812,17 @@
         "lib/netstandard1.0/DevExtreme.AspNet.Data.dll"
       ]
     },
-    "DevExtreme.AspNet.Mvc/16.1.5-pre-1608021755": {
-      "sha512": "fkV1XpI/MVo21mMuGRHFhZ8f4mx9R2wQHBBsSGEQKHN7m0FWbJKuljidyPljen5mA/6xauh3HDVXUBRJuoHP3w==",
+    "DevExtreme.AspNet.Mvc/16.2.1": {
+      "sha512": "6Z7aMqr6yztHaPq8ZadhjUlANmh5C1yYqdFQchU6bh7jSaXDGYhzt/FtxR4KluOgiIKci51jO3U2uK6r/b9b8Q==",
       "type": "package",
-      "path": "DevExtreme.AspNet.Mvc/16.1.5-pre-1608021755",
+      "path": "DevExtreme.AspNet.Mvc/16.2.1",
       "files": [
-        "DevExtreme.AspNet.Mvc.16.1.5-pre-1608021755.nupkg.sha512",
+        "DevExtreme.AspNet.Mvc.16.2.1.nupkg.sha512",
         "DevExtreme.AspNet.Mvc.nuspec",
         "lib/net451/DevExtreme.AspNet.Mvc.dll",
         "lib/net451/DevExtreme.AspNet.Mvc.xml",
         "lib/netstandard1.6/DevExtreme.AspNet.Mvc.dll",
         "lib/netstandard1.6/DevExtreme.AspNet.Mvc.xml"
-      ]
-    },
-    "DevExtreme.Web/16.1.8": {
-      "sha512": "aG5gB9aGXxDLAOBAY9wDqYHhhCjHOqCpQaeZ2uKcrb4EHvvm9pRbXms1s9hTLLzv3qraA72RL8KCXj6eoxWCSQ==",
-      "type": "package",
-      "path": "DevExtreme.Web/16.1.8",
-      "files": [
-        "content/net/Content/dx.android5.light.css",
-        "content/net/Content/dx.common.css",
-        "content/net/Content/dx.contrast.compact.css",
-        "content/net/Content/dx.contrast.css",
-        "content/net/Content/dx.dark.compact.css",
-        "content/net/Content/dx.dark.css",
-        "content/net/Content/dx.ios7.default.css",
-        "content/net/Content/dx.light.compact.css",
-        "content/net/Content/dx.light.css",
-        "content/net/Content/dx.spa.css",
-        "content/net/Content/dx.win10.black.css",
-        "content/net/Content/dx.win10.white.css",
-        "content/net/Content/dx.win8.black.css",
-        "content/net/Content/dx.win8.white.css",
-        "content/net/Content/icons/dxicons.eot",
-        "content/net/Content/icons/dxicons.ttf",
-        "content/net/Content/icons/dxicons.woff",
-        "content/net/Content/icons/dxiconsios.eot",
-        "content/net/Content/icons/dxiconsios.ttf",
-        "content/net/Content/icons/dxiconsios.woff",
-        "content/net/Content/layouts/Desktop/DesktopLayout.css",
-        "content/net/Content/layouts/Desktop/DesktopLayout.html",
-        "content/net/Content/layouts/Desktop/DesktopLayout.js",
-        "content/net/Content/layouts/Empty/EmptyLayout.css",
-        "content/net/Content/layouts/Empty/EmptyLayout.html",
-        "content/net/Content/layouts/Empty/EmptyLayout.js",
-        "content/net/Content/layouts/Popup/PopupLayout.css",
-        "content/net/Content/layouts/Popup/PopupLayout.html",
-        "content/net/Content/layouts/Popup/PopupLayout.js",
-        "content/net/Scripts/devextreme-localization/dx.web.de.js",
-        "content/net/Scripts/devextreme-localization/dx.web.ja.js",
-        "content/net/Scripts/devextreme-localization/dx.web.ru.js",
-        "content/net/Scripts/dx.viz-web.debug.js",
-        "content/net/Scripts/dx.viz-web.js",
-        "content/net/Scripts/dx.viz.debug.js",
-        "content/net/Scripts/dx.viz.js",
-        "content/net/Scripts/dx.web.debug.js",
-        "content/net/Scripts/dx.web.js",
-        "content/net/Scripts/jszip.js",
-        "content/net/Scripts/jszip.min.js",
-        "content/net/Scripts/vectormap-data/africa.js",
-        "content/net/Scripts/vectormap-data/canada.js",
-        "content/net/Scripts/vectormap-data/eurasia.js",
-        "content/net/Scripts/vectormap-data/europe.js",
-        "content/net/Scripts/vectormap-data/usa.js",
-        "content/net/Scripts/vectormap-data/world.js",
-        "content/net/Scripts/vectormap-utils/dx.vectormaputils.debug.js",
-        "content/net/Scripts/vectormap-utils/dx.vectormaputils.js",
-        "content/net/Scripts/vectormap-utils/dx.vectormaputils.node.js",
-        "content/netcore/css/dx.android5.light.css",
-        "content/netcore/css/dx.common.css",
-        "content/netcore/css/dx.contrast.compact.css",
-        "content/netcore/css/dx.contrast.css",
-        "content/netcore/css/dx.dark.compact.css",
-        "content/netcore/css/dx.dark.css",
-        "content/netcore/css/dx.ios7.default.css",
-        "content/netcore/css/dx.light.compact.css",
-        "content/netcore/css/dx.light.css",
-        "content/netcore/css/dx.spa.css",
-        "content/netcore/css/dx.win10.black.css",
-        "content/netcore/css/dx.win10.white.css",
-        "content/netcore/css/dx.win8.black.css",
-        "content/netcore/css/dx.win8.white.css",
-        "content/netcore/css/icons/dxicons.eot",
-        "content/netcore/css/icons/dxicons.ttf",
-        "content/netcore/css/icons/dxicons.woff",
-        "content/netcore/css/icons/dxiconsios.eot",
-        "content/netcore/css/icons/dxiconsios.ttf",
-        "content/netcore/css/icons/dxiconsios.woff",
-        "content/netcore/js/devextreme-localization/dx.web.de.js",
-        "content/netcore/js/devextreme-localization/dx.web.ja.js",
-        "content/netcore/js/devextreme-localization/dx.web.ru.js",
-        "content/netcore/js/dx.viz-web.debug.js",
-        "content/netcore/js/dx.viz-web.js",
-        "content/netcore/js/dx.viz.debug.js",
-        "content/netcore/js/dx.viz.js",
-        "content/netcore/js/dx.web.debug.js",
-        "content/netcore/js/dx.web.js",
-        "content/netcore/js/jszip.js",
-        "content/netcore/js/jszip.min.js",
-        "content/netcore/js/vectormap-data/africa.js",
-        "content/netcore/js/vectormap-data/canada.js",
-        "content/netcore/js/vectormap-data/eurasia.js",
-        "content/netcore/js/vectormap-data/europe.js",
-        "content/netcore/js/vectormap-data/usa.js",
-        "content/netcore/js/vectormap-data/world.js",
-        "content/netcore/js/vectormap-utils/dx.vectormaputils.debug.js",
-        "content/netcore/js/vectormap-utils/dx.vectormaputils.js",
-        "content/netcore/js/vectormap-utils/dx.vectormaputils.node.js",
-        "content/netcore/layouts/Desktop/DesktopLayout.css",
-        "content/netcore/layouts/Desktop/DesktopLayout.html",
-        "content/netcore/layouts/Desktop/DesktopLayout.js",
-        "content/netcore/layouts/Empty/EmptyLayout.css",
-        "content/netcore/layouts/Empty/EmptyLayout.html",
-        "content/netcore/layouts/Empty/EmptyLayout.js",
-        "content/netcore/layouts/Popup/PopupLayout.css",
-        "content/netcore/layouts/Popup/PopupLayout.html",
-        "content/netcore/layouts/Popup/PopupLayout.js",
-        "content/netcore/layouts/Simple/SimpleLayout.css",
-        "content/netcore/layouts/Simple/SimpleLayout.html",
-        "content/netcore/layouts/Simple/SimpleLayout.js",
-        "devextreme.web.16.1.8.nupkg.sha512",
-        "devextreme.web.nuspec",
-        "tools/install.ps1"
       ]
     },
     "Google.Protobuf/3.0.0": {
@@ -4953,40 +4836,6 @@
         "lib/net45/Google.Protobuf.xml",
         "lib/netstandard1.0/Google.Protobuf.dll",
         "lib/netstandard1.0/Google.Protobuf.xml"
-      ]
-    },
-    "jQuery/1.11.3": {
-      "sha512": "ymvj+/1xi/6zWPhJxZOPoPTunO6/ONr34BzLdwIR4Wjkfz2lmtmVRt/Nqnw7hp+u4JiF/gF0Hwi8al2tNaIrrg==",
-      "type": "package",
-      "path": "jQuery/1.11.3",
-      "files": [
-        "Content/Scripts/jquery-1.11.3-vsdoc.js",
-        "Content/Scripts/jquery-1.11.3.js",
-        "Content/Scripts/jquery-1.11.3.min.js",
-        "Content/Scripts/jquery-1.11.3.min.map",
-        "Tools/common.ps1",
-        "Tools/install.ps1",
-        "Tools/jquery-1.11.3.intellisense.js",
-        "Tools/uninstall.ps1",
-        "jquery.1.11.3.nupkg.sha512",
-        "jquery.nuspec"
-      ]
-    },
-    "jquery-globalize/1.1.1": {
-      "sha512": "tkRqYLIONjwamztg1rG+xyh2asA0ARLOPorfF3N9JW8fWr+srtPAeUNLFHF6NZAQ7Avnkzgi2OC505lK5avFag==",
-      "type": "package",
-      "path": "jquery-globalize/1.1.1",
-      "files": [
-        "content/Scripts/globalize.js",
-        "content/Scripts/globalize/currency.js",
-        "content/Scripts/globalize/date.js",
-        "content/Scripts/globalize/message.js",
-        "content/Scripts/globalize/number.js",
-        "content/Scripts/globalize/plural.js",
-        "content/Scripts/globalize/relative-time.js",
-        "content/Scripts/globalize/unit.js",
-        "jquery-globalize.1.1.1.nupkg.sha512",
-        "jquery-globalize.nuspec"
       ]
     },
     "Libuv/1.9.0": {
@@ -11960,9 +11809,8 @@
   "projectFileDependencyGroups": {
     "": [
       "BackEnd >= 1.0.0-*",
-      "DevExtreme.AspNet.Data >= 1.1.0",
-      "DevExtreme.AspNet.Mvc >= 16.1.5-pre-1608021755",
-      "DevExtreme.Web >= 16.1.8",
+      "DevExtreme.AspNet.Core >= 16.2.5",
+      "DevExtreme.AspNet.Mvc >= 16.2.1",
       "Microsoft.ApplicationInsights.AspNetCore >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.Cookies >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 1.0.0",

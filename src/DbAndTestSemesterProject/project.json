@@ -7,9 +7,6 @@
       "type": "platform"
     },
     "BackEnd": "1.0.0-*",
-    "DevExtreme.AspNet.Data": "1.1.0",
-    "DevExtreme.AspNet.Mvc": "16.1.5-pre-1608021755",
-    "DevExtreme.Web": "16.1.8",
     "Microsoft.ApplicationInsights.AspNetCore": "1.0.0",
     "Microsoft.AspNetCore.Authentication.Cookies": "1.0.0",
     "Microsoft.AspNetCore.Authentication.OpenIdConnect": "1.0.0",
@@ -39,7 +36,9 @@
     "WindowsAzure.Storage": "7.2.1",
     "MongoDB.Driver.Core": "2.4.3",
     "MongoDB.Bson": "2.4.3",
-    "MongoDB.Driver": "2.4.3"
+    "MongoDB.Driver": "2.4.3",
+    "DevExtreme.AspNet.Mvc": "16.2.1",
+    "DevExtreme.AspNet.Core": "16.2.5"
   },
   "buildOptions": {
     "emitEntryPoint": true,
